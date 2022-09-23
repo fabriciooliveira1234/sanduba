@@ -1,0 +1,161 @@
+{
+  "ingredientes": {
+    "paes": [
+      {
+        "id": 1,
+        "tipo": "Integral"
+      },
+      {
+        "id": 2,
+        "tipo": "4 Queijos"
+      },
+      {
+        "id": 3,
+        "tipo": "Parmesão com Azeitona"
+      },
+      {
+        "id": 4,
+        "tipo": "Azeite com Alho"
+      },
+      {
+        "id": 5,
+        "tipo": "Tradicional"
+      }
+    ],
+    "carnes": [
+      {
+        "id": 1,
+        "tipo": "Frango"
+      },
+      {
+        "id": 2,
+        "tipo": "Porco"
+      },
+      {
+        "id": 3,
+        "tipo": "Picanha"
+      },
+      {
+        "id": 4,
+        "tipo": "Vegana"
+      }
+    ],
+    "opcionais": [
+      {
+        "id": 1,
+        "tipo": "Bacon"
+      },
+      {
+        "id": 2,
+        "tipo": "Cheddar"
+      },
+      {
+        "id": 3,
+        "tipo": "Salame"
+      },
+      {
+        "id": 4,
+        "tipo": "Tomate"
+      },
+      {
+        "id": 4,
+        "tipo": "Cebola roxa"
+      },
+      {
+        "id": 4,
+        "tipo": "Pepino"
+      }
+    ],
+    "molhos": [
+      {
+        "id": 1,
+        "tipo": "Parmesão"
+      },
+      {
+        "id": 2,
+        "tipo": "Mostarda e Mel"
+      },
+      {
+        "id": 3,
+        "tipo": "Azedinho"
+      },
+      {
+        "id": 4,
+        "tipo": "Tomate"
+      }
+    ]
+  },
+  "status": [
+    {
+      "id": 1,
+      "tipo": "Solicitado"
+    },
+    {
+      "id": 2,
+      "tipo": "Em produção"
+    },
+    {
+      "id": 3,
+      "tipo": "Finalizado"
+    }
+  ],
+  "sandwiches": [
+    {
+      "nome": "Fabricio Oliveira",
+      "carne": "Porco",
+      "pao": "4 Queijos",
+      "opcionais": [
+        "Tomate"
+      ],
+      "molhos": [
+        "Mostarda e Mel"
+      ],
+      "status": "Solicitado",
+      "id": 1
+    },
+    {
+      "nome": "Fabiana Novaes",
+      "carne": "Porco",
+      "pao": "4 Queijos",
+      "opcionais": [
+        "Bacon",
+        "Tomate"
+      ],
+      "molhos": [
+        "Azedinho"
+      ],
+      "status": "Solicitou",
+      "id": 3
+    },
+    {
+      "nome": "Pedro Sampaio",
+      "carne": "Porco",
+      "pao": "Parmesão com Azeitona",
+      "opcionais": [
+        "Cheddar",
+        "Pepino"
+      ],
+      "molhos": [
+        "Mostarda e Mel",
+        "Azedinho"
+      ],
+      "status": "Solicitou",
+      "id": 5
+    },
+    {
+      "nome": "Fabricio Oliveira",
+      "carne": "Vegana",
+      "pao": "Azeite com Alho",
+      "opcionais": [
+        "Cheddar",
+        "Cebola roxa"
+      ],
+      "molhos": [
+        "Mostarda e Mel"
+      ],
+      "status": "Solicitou",
+      "id": 6
+    }
+  ],
+  "sanduiches": []
+}
